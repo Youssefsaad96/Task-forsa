@@ -1,0 +1,529 @@
+body {
+  font-family: 'SF Pro Display', sans-serif;
+
+ overflow-x: hidden;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1C1C1C;
+  text-decoration: none;
+  width: 100vw;
+  padding: 2px;
+    font-family: 'SF Pro Display medium', sans-serif;
+    overflow-y: hidden;
+    position: sticky;
+}
+#header .logo{
+  display: flex;
+  justify-content: flex-start;
+  margin-right: -50px;
+position: sticky;
+}
+#navbar {
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+    overflow-y: hidden;
+ 
+}
+#navbar .options{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -10%;
+}
+#navbar li{
+  padding: 0 20px;;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+#navbar .thirdSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#navbar .secondSection{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+/* //////////////////////////////////// */
+
+#backgroundImage{
+  width: 100%;
+  overflow-x: hidden;
+}
+.each-slide-effect>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  overflow-x: hidden;
+}
+#allProducts h2{
+  color: #1D1D1F;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+#explore  {
+display: flex;
+justify-content: center;
+align-items: center;
+  color:#1C1C1C;
+  margin: 60px 0;
+}
+/* /////////////////////////////////////// */
+.App{
+  position: relative;
+  right: -300px;
+  width: 70%;
+  top: -50px;
+}
+.card {
+  border: 1px solid #F0F0F0;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 0px;
+}
+.card h4{
+  padding-left: 10px;
+  color: #1C1C1C;
+}
+.card-top img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  width: 50%;
+}
+.card-top p{
+  position: relative;
+  right: -8px;
+}
+
+.colorball{
+  border: 1px solid #707070;
+border-radius: 100%;
+color:#90BAD1;
+background-color: #90BAD1;
+padding: 5px 10px;
+position: relative;
+  top: -22px;
+  right: 65px;
+}
+.colorSilver{
+  position: relative;
+  top: -22px;
+  right: 55px;
+  border: 1px solid #707070;
+  border-radius: 100%;
+    color: #EDEDED;
+    background-color: #EDEDED;
+    padding: 5px 10px;
+}
+
+/* 
+/////////////////////////////////////////////////// */
+#subscription{
+  display: flex;
+  flex-direction: column;
+  background-color:#F0F0F0;
+  justify-content: center;
+  margin-top: 70px;
+
+}
+#subscription h6{
+color: #000000;
+font-weight: 200;
+font-size: 26px;
+display: flex;
+justify-content: center;
+}
+#subscription .email{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-bottom: 60px;
+}
+#subscription input{
+ padding: 10px 70px; 
+ border-radius: 8px;
+ border:1px solid #AAAAAA;
+   
+}
+#subscription button {
+  border-radius: 8px;
+  padding: 0 30px;
+  background-color: #000000;
+  color:#fff;
+}
+/* ///////////////////////////////////////////// */
+#footer{
+  padding: 30px 0;
+  background-color: #1C1C1C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#footer .footerImages{
+  display: flex;
+  justify-content: space-evenly;
+flex-direction: row;
+}
+#footer img{
+  width: 50px;
+  height: 50px;
+}
+#footer p{
+  margin-top: 10px;
+  font-weight: 100;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.colorRed{
+    padding-left: 10px;
+color: #D63030;
+}
+.colorGreen{
+  padding-left: 10px;
+color: #36BA5C
+}
+/* /////////////////////// */
+
+.productDetails{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 30px;
+color:#000000;
+}
+.productDetails p{
+  color: #000000;
+}
+.forMobile {
+  display: flex;
+  flex-direction: row;
+}
+.mobileImages img{
+  width: 15%;
+  padding: 0 0 20px 0;
+  
+}
+.payment span {
+  color: #888888;
+}
+.coulmn{
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.border{
+  border: 1px solid #F0F0F0;
+border-radius: 10px;
+}
+.stars {
+  height: 25px;
+}
+.stars p{
+  color: #AAAAAA;
+  font-size: 70%;
+}
+.priceBlue span{
+  color:#0D4EB7;
+}
+.priceBlack span {
+  color: black;
+}
+.stock p{
+color:#36BA5C;
+position: relative;
+right: 8px;
+top:-30px;
+font-weight: 700;
+font-size: small;
+}
+.quantity{
+  position: relative;
+  top: -30px;
+}
+.quantity h2  span{
+  border: 1px solid #000;
+  border-radius: 100%;
+  padding: 0 10px;
+  font-weight: 100;
+}
+
+.quantity h2{
+  border:none;
+  font-weight: 100;
+  padding: 0 10px 0 0;
+}
+.installment {
+  position: relative;
+  top: -60px;
+}
+.installment .border{
+padding: 25px 21px;
+border-radius: 10px;
+}
+.borderBlack{
+  border: 1px solid #000;
+  padding: 0px 30px;
+    border-radius: 10px;
+}
+.installment span{
+  color: #C3C3C3;
+  margin-right: 5px;
+}
+.memory{
+  position: relative;
+  top: -90px;
+}
+.memory .size{
+  position: relative;
+  top: -15px;
+}
+.memory .border{
+  padding: 0px 30px;
+border-radius: 10px;
+}
+.memory span{
+  color:#AAAAAA;
+}
+.img {
+  position: relative;
+  top:-80px
+}
+.img .border{
+  padding: 15px 0;
+  margin-right: 5px;
+}
+.color {
+  position: relative;
+  top: -115px;
+}
+.color .border{
+  position: relative;
+  top:-40px;
+  margin-right:5px;
+}
+.color .border{
+  padding: 20px 25px;
+}
+.color span{
+  color:#AAAAAA;
+}
+.insurance {
+  position: relative;
+  top: -190px;
+}
+.insurance .durations{
+  position: relative;
+  top:-15px;
+}
+.insurance .border{
+padding: 0px 30px;
+margin: 0 5px 0 0 ;
+}
+.button{
+  position: relative;
+  top:-220px
+}
+.buttonBlue button{
+  color:#fff;
+  background-color: #0D4EB7;
+  padding: 10px 175px;
+  border-radius: 10px;
+  border: 1px transparent;
+  margin: 40px 0;
+  cursor: pointer;
+  position: relative;
+  top: -330px;
+}
+
+.buttonBlack button {
+  color: #fff;
+  background-color: #000000;
+  padding: 10px 175px;
+  border-radius: 10px;
+  border: 1px transparent;
+  margin: 40px 0;
+  cursor: pointer;
+  position: relative;
+  top: -330px;
+}
+
+.shipping{
+  margin: 0 0 25px 0;
+  position: relative;
+  top:-140px;
+}
+.shipping p,img {
+  color:#6F6F6F;
+font-size: 13px;
+}
+
+
+/* ///////////////////////////////////////////////// */
+@media (max-width:400px){
+body {
+
+  overflow-x: hidden;
+  
+  
+}
+#header {
+  width: 100%;
+    display:flex;
+    flex-direction: row;
+  align-items: flex-start;
+    background-color: #1C1C1C;
+    text-decoration: none;
+
+    font-family: 'SF Pro Display medium', sans-serif;
+    overflow-x: hidden;
+    position: sticky;
+  }
+  #header .logo{
+    position: relative;
+    right: 70px;
+  }
+  #navbar li{
+    display: none;
+  }
+  .App {
+position: relative;
+right: -60px;
+
+
+    
+  }
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #F0F0F0;
+  border-radius: 10px;
+  overflow-x: hidden;
+  padding: 0 0px;
+}
+#subscription h6 {
+  color: #000000;
+  font-weight: 100;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+#subscription input{
+  width: 50%;
+}
+#subscription .button {
+  width: 50%;
+}
+#subscription .email {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding:0px 10px 60px 10px;
+}
+.productDetails {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.forMobile{
+  display:flex;
+  flex-direction: row;
+}
+.mobileImages img{
+  width: 50px;
+  padding-left: 20px;
+}
+.bigImage img{
+  width: 50%;
+  padding: 0 0 0 80px;
+}
+.each-slide-effect>div {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-size:contain;
+  width: 35em;
+  overflow-x: hidden;
+position: relative;
+right: 20px;
+
+;
+}
+#footer p {
+  margin-top: 10px;
+  font-weight: lighter;
+  display: flex;
+  font-size: 8px;
+  justify-content: center;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+#explore {
+  position: relative;
+top: -250px;
+}
+.App{
+  position: relative;
+  top: -180px;
+}
+.borderBlack {
+  border: 1px solid #000;
+  padding: 0px 15px;
+  width: 50%;
+  border-radius: 10px;
+}
+.color .border {
+  position: relative;
+  top: -40px;
+  margin-right: 0px;
+}
+.shipping{
+  position: relative;
+  top: -115px;
+}
+.buttonBlue button {
+  color: #fff;
+  background-color: #0D4EB7;
+  padding: 10px 155px;
+  border-radius: 10px;
+  border: 1px transparent;
+  margin: 40px 0;
+  cursor: pointer;
+  position: relative;
+  top: -330px;
+}
+}
