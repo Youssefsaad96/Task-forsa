@@ -274,6 +274,7 @@ font-size: small;
   border-radius: 100%;
   padding: 0 10px;
   font-weight: 100;
+  color: #000;
 }
 
 .quantity h2{
@@ -385,6 +386,9 @@ margin: 0 5px 0 0 ;
   color:#6F6F6F;
 font-size: 13px;
 }
+#header .navbarMobile{
+  display: none;
+}
 
 
 /* ///////////////////////////////////////////////// */
@@ -407,11 +411,16 @@ body {
     overflow-x: hidden;
     position: sticky;
   }
+    #header .navbarMobile {
+      display: flex;
+      position: relative;
+      left: 25px;
+    }
   #header .logo{
     position: relative;
-    right: 70px;
+    right: 60px;
   }
-  #navbar li{
+  #navbar .options,.thirdSection li{
     display: none;
   }
   .App {
