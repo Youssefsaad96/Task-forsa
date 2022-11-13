@@ -219,6 +219,12 @@ color:#000000;
 .productDetails p{
   color: #000000;
 }
+ .heartImage{
+  width: 5%;
+  position: relative;
+  top: -38px;
+right: -500px;
+}
 .forMobile {
   display: flex;
   flex-direction: row;
@@ -418,7 +424,16 @@ body {
     }
   #header .logo{
     position: relative;
-    right: 60px;
+    right: 46px;
+  }
+  .payment .brandName{
+    position: relative;
+    top: 40px;
+  }
+  .heartImage{
+    width: 5%;
+    position: relative;
+    right: -340px;
   }
   #navbar .options,.thirdSection li{
     display: none;
@@ -487,10 +502,7 @@ right: -60px;
   width: 35em;
   overflow-x: hidden;
 position: relative;
-right: 20px;
-
-;
-}
+right: 20px;}
 #footer p {
   margin-top: 10px;
   font-weight: lighter;
