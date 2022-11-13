@@ -3,6 +3,7 @@ import LogoImage from "../images/fav.png";
 import SearchImage from "../images/search.png";
 import ProfileImage from "../images/profile.png";
 import BagImage from "../images/bag.png";
+import Navbar from "../images/navbar.png";
 
 function Header() {
   return (
@@ -36,6 +37,11 @@ function Header() {
               </li>
               <li>
                 <img src={BagImage}></img>
+              </li>
+            </div>
+            <div className='navbarMobile'>
+              <li>
+                <img src={Navbar}></img>
               </li>
             </div>
           </ul>
