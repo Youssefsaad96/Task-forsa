@@ -6,6 +6,7 @@ import Star from "../images/star.png";
 import Cib from "../images/bank.png";
 import Shipping from "../images/shipping.png";
 import Returns from "../images/returns.png";
+import Heart from "../images/heart.png";
 
 function BuyProduct({ img, Name, price, inStock, numberOfStars ,numberOfReviews}) {
   return (
@@ -25,8 +26,9 @@ function BuyProduct({ img, Name, price, inStock, numberOfStars ,numberOfReviews}
       <div className="payment">
         <div className="coulmn">
           <h6>
-            <span>APPLE</span>
+            <span className="brandName">APPLE</span>
           </h6>
+          <img className="heartImage" src={Heart}></img>
           <h4>{Name}</h4>
           <div className="row stars">
             <img src={GoldStar}></img>
